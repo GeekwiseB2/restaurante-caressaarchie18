@@ -101,12 +101,13 @@ border-color: #F8512F;
   background-image: url('../img/black_linen.png');
   background-size: cover;
   min-height: 600px;
+  padding-bottom: 50px;
 }
 #menu h1 {
   color: #FFF;
 }
 #menu a {
-  color: #F8512F
+  color: #F8512F;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -118,6 +119,7 @@ border-color: #F8512F;
   background-color: #FFF;
   padding: 10px;
 }
+/* CONTACT */
 #contact {
   background-color: #F8512F;
   min-height: 600px;
@@ -137,4 +139,24 @@ border-color: #F8512F;
 }
 #contact .form-group span {
   color: #FF0D06;
+}
+.name{
+  color:#FFF;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  padding-left: 4em;
+}
+.street,
+.city,
+.phone{
+  padding-left: 4em;
+  color:#FFF;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+.map{
+  padding-left: 5em;
 }
